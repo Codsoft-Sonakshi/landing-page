@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+}
+
+.landing-page-container{
+    height: 100vh;
+    width: 98vw;
+}
+.landing-page-container-background img{
+    height: 50vh;
+    width: 25vw;
+}
+
+.landing-page-container-background .shape{
+    height: 8vh;
+    width: 8vw;
+    margin-left: 6rem;
+    margin-bottom: 10rem;
+}
+
+.landing-page-container-navbar{
+    position: absolute;
+    margin-top: -21rem;
+    gap: 20rem;
+    background: transparent;
+    height: 20vh;
+    width: 99vw;
+    display: flex;
+}
+
+.landing-page-container-navbar-left img{
+    height: 8vh;
+    width: 8vw;
+    margin-top: 3.1rem;
+    margin-left: 6.7rem;
+}
+
+.landing-page-container-navbar-right{
+    gap: 3rem;
+    display: flex;
+}
+
+.landing-page-container-navbar-right li{
+    list-style-type: none;
+    display: inline; 
+    font-size: 21px; 
+    margin-top: 4rem;
+    font-weight: 700;
+    margin-left: -1rem;
+    font-family:serif;
+    cursor: pointer;;
+}
+
+.landing-page-container-navbar li:hover{
+    color:red;
+}
+
+.landing-page-container-button{
+    margin-top: 3.5rem;
+    margin-left: -18rem;
+}
+
+.landing-page-container-button button{
+    height: 6.1vh;
+    width: 8vw;
+    font-size: 1rem;
+    color: white;
+    background: #EB3656;
+    border: 1px solid #eb3656;
+}
+
+.landing-page-container-button button:hover{
+    background: white;
+    color:#EB3656;
+}
+
+.landing-page-container-Interior img{
+    height: 50%;
+    width: 65%;
+    margin-top: -10rem;
+    
+    margin-left: 28rem;
+}
+
+.landing-page-container-Interior-content{
+    position: relative;
+    z-index: 9;
+    margin-top: -51rem;
+    margin-left: 7rem;
+    width: 40rem;
+}
+
+
+.landing-page-container-Interior-content-sub-title{
+    font-size: 30px;
+    color: #EB3656;
+    font-family:'Quattrocento' serif;
+    font-weight: 100;
+}
+
+.landing-page-container-Interior-content-title span{
+    color: #EB3656;
+    display: inline-block;
+    font-size: 65px;
+}
+
+.landing-page-container-Interior-content-title{
+    font-size:45px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.landing-page-container-Interior-content-quote::before{
+    position: absolute;
+    content: '';
+    width: 80px;
+    height: 2px;
+    background-color: #EB3656;
+    left: -4px;
+    top: 96%;  
+}
+ .landing-page-container-Interior-content-quote h3{
+    margin-left: 6rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-family: monospace ;
+ }
+
+ .landing-page-container-aboutpage{
+    height: 150vh;
+    width: 98.9vw;
+    margin-top: 35rem;
+    margin-left:9rem;
+ }
+
+ .landing-page-container-aboutpage-image{
+    margin-top: 20rem;
+    margin-left: 20rem;
+ }
+
+ .landing-page-container-aboutpage-image1{
+    margin-top: -15rem;
+ }
+ 
+ .landing-page-container-aboutpage-image2{
+    position: absolute;
+    margin-left: 15rem;
+    margin-top: -10rem;
+ }
+
+ .landing-page-container-aboutpage-sub-title{
+     height: 50vh;
+     width: 35vw;
+     margin-left: 39rem;
+     margin-top: -18rem;
+ }
+
+ .landing-page-container-aboutpage-sub-title h3{
+    color: #EB3656;
+    font-family: 'Quattrocento',serif;
+    font-size: 24px;
+    text-transform: uppercase;
+ }
+
+ .landing-page-container-aboutpage-sub-title h2{
+    color: #080808;
+    margin-top: 1rem;
+    font-family: 'Quattrocento',serif;
+    font-size: 35px;
+    text-transform: uppercase;
+ }
+
+ .landing-page-container-aboutpage-sub-title p{
+    margin-top: 1.5rem;
+    color:  #646464;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+ }
+
+ .landing-page-container-aboutpage-learn-button button{
+    font: 16px 'Barlow, sans-serf';
+    background: #EB3656;
+    color: white;
+    margin-top: 15rem;
+    margin-left: 40rem;
+    height: 35px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+ }
+
+ @media screen and (max-width:430px) {
+   .landing-page-container-Interior-content{
+    margin-top: -42rem;
+   } 
+
+   .landing-page-container-Interior img{
+    height: 100vh;
+    width: 40rem;
+    margin-left: 14.9rem;
+   }
+
+   .landing-page-container-aboutpage{
+    height: 200vh;
+   }
+.landing-page-container-aboutpage-image1 img{
+    height: 90vh;
+    margin-left: -8.5rem;
+    width: 40rem;
+   }
+.landing-page-container-aboutpage-image2 img {
+    height: 90vh;
+    margin-left: -8.5rem;
+    width: 40rem;
+}
+
+.landing-page-container-aboutpage-sub-title{
+    margin-top: 59rem;
+    height: 10vh;
+    width: 80vw;
+    margin-left: 2rem;
+}
+
+.landing-page-container-aboutpage-sub-title h3{
+    font-size: 3rem;
+}
+
+.landing-page-container-aboutpage-learn-button{
+    margin-top: 20rem;
+    margin-left: -10rem;
+}
+
+.landing-page-container-aboutpage-learn-button button{
+    height: 10vh;
+    width: 50vw;
+    font-size: 1.5rem;
+}
+
+
+ }
